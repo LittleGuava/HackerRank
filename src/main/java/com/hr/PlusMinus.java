@@ -20,7 +20,7 @@ public class PlusMinus {
                 countN.getAndIncrement();
             }
 
-        });
+    });
         System.out.printf("%.6f\n", countP.floatValue()/arr.length);
         System.out.printf("%.6f\n", countN.floatValue()/arr.length);
         System.out.printf("%.6f", countZ.floatValue()/arr.length);
